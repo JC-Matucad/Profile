@@ -1,0 +1,227 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+span{
+    color: white;
+}
+span1{
+    color: skyblue;
+}
+
+.first img{
+    width: 2.5in;
+    height: auto;
+    border-radius: 5px;
+}
+
+.first h1{
+    font-size: 28px;
+}
+
+.first h2{
+    font-size: 16px;
+    font: 200;
+}
+
+.first button{
+    height: 40px;
+    width: 250px;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    color: skyblue;
+    margin-top: 30px;
+}
+
+.first button:hover{
+    cursor: pointer;
+    background-color: skyblue;
+    color: white;
+    border: white solid 1px;
+}
+
+.first{
+    width: 40%;
+    height: 100%;
+    background-color: skyblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.fa-brands{
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 2rem;
+}
+.fa-brands:hover{
+    color: rgb(28, 183, 240);
+}
+
+.socmed{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+.second{
+    width: 60%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.second h1{
+    font-size: 50px;
+    align-self: flex-start;
+}
+
+.second h2{
+    width: 90%;
+    font-size: 20px;
+    text-align: justify;
+    font-weight: 200;
+}
+
+.aboutme{
+    width: 80%;
+}
+
+.nextcontent{
+    padding-top: 70px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+}
+
+.resume{
+    width: 50%;
+    height: auto;
+}
+
+.portfolio{
+    width: 50%;
+    height: auto;
+}
+
+.resume button{
+    color: white;
+    background-color: skyblue;
+    border-radius: 10px;
+    border: none;
+    height: 40px;
+    width: 200px;
+    margin-right: 10px;
+}
+.portfolio button{
+    color: white;
+    background-color: skyblue;
+    border-radius: 10px;
+    border: none;
+    height: 40px;
+    width: 200px;
+    margin-left: 70px;
+}
+
+.resume button:hover{
+    color: skyblue;
+    background-color: white ;
+    border: skyblue solid 1px;
+}
+.portfolio button:hover{
+    color: skyblue;
+    background-color: white ;
+    border: skyblue solid 1px;
+}
+
+@media only screen and (max-width: 400px) {
+    .Container{
+        flex-direction: column;
+        width: 100vw;
+        height: 200vh;
+    }
+
+    .first{
+        width: 100%;
+        height: 50%;
+        background-color: skyblue;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .first h2{
+        font-size: 13px;
+        font-weight: 600;
+    }
+
+    .second{
+        width: 100%;
+        height: 50%;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .nextcontent{
+        flex-direction: column;
+        padding-top: 50px;
+    }
+
+    .resume{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .portfolio{
+        margin-top: 10px;
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    .resume button{
+        color: white;
+        background-color: skyblue;
+        border-radius: 10px;
+        border: none;
+        height: 40px;
+        width: 200px;
+        margin-right: 0px;
+    }
+    .portfolio button{
+        color: white;
+        background-color: skyblue;
+        border-radius: 10px;
+        border: none;
+        height: 40px;
+        width: 200px;
+        margin-left: 0px;
+    }
+}
